@@ -8,3 +8,4 @@ Set the superclass attribute by using super(itemName, itemValue) in the FragileI
 The exception affects the FragileItem subclass because the constructor calls the VaultItem constructor using super(). If an invalid item is entered, the superclass throws the InvalidItemValueException, so if a FragileItem with a value less than 0 cannot be created. I think this is a good way to handle things because it enforces the value rule in one place and automatically applies to subclasses.
 
 # Phase 4 Journal
+Selection Sort has worst-case time complexity of O(n^2) because it compares each item with the other items in the array. If you double the number of items from 10 items to 20 items, it can make 45 comparisons between the items. This means that doubling the number of items can roughly cause  four times the comparisons.
