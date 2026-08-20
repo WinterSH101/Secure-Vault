@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d62031c-a92d-4470-a950-3ea8572a7081" name="Changes" comment="Phase 4 prompt">
+      <change afterPath="$PROJECT_DIR$/.idea/Secure-Vault.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecureVault--Main/src/com/securevault/core/VaultItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Secure-Vault--main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/Journal.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/src/com/securevault/app/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/src/com/securevault/core/InvalidItemValueException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/src/com/securevault/core/VaultItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/src/com/securevault/core/VaultManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/src/com/securevault/specialty/FragileItem.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="15" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;WinterSH101&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/WinterSH101/Secure-Vault--main.git&quot;,
+    &quot;accountId&quot;: &quot;069fed4d-219e-459d-af44-a2c3517cc0d6&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0046996435209572E-45" />
+      <entry key="MS500" value="1.0095228811105887E-9" />
+      <entry key="S2" value="0.00804335949257484" />
+      <entry key="S5" value="0.28241631729747646" />
+      <entry key="S10" value="1.0378502485251897" />
+      <entry key="S30" value="3.2407521115786886" />
+      <entry key="S60" value="6.074893900422085" />
+      <entry key="M2" value="13.02610004118408" />
+      <entry key="M5" value="36.13636154083309" />
+      <entry key="M10" value="63.70996796652054" />
+      <entry key="M15" value="85.82726031143784" />
+      <entry key="M30" value="138.4202838813762" />
+      <entry key="H1" value="198.47945306592962" />
+      <entry key="H2" value="247.52885788647941" />
+      <entry key="H4" value="279.5023814530219" />
+      <entry key="D1" value="311.0696839088883" />
+      <entry key="W1" value="316.99647911053967" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000000208577129" />
+      <entry key="S5" value="1.002871000094686" />
+      <entry key="S10" value="1.074841928350726" />
+      <entry key="S30" value="1.81413284833399" />
+      <entry key="S60" value="2.7005613716470185" />
+      <entry key="M2" value="3.565396376186673" />
+      <entry key="M5" value="4.343114927113119" />
+      <entry key="M10" value="4.853660665480967" />
+      <entry key="M15" value="5.440138136970205" />
+      <entry key="M30" value="7.394344252741593" />
+      <entry key="H1" value="10.074321328478137" />
+      <entry key="H2" value="12.437635899530205" />
+      <entry key="H4" value="14.03366079890245" />
+      <entry key="D1" value="15.64283157675922" />
+      <entry key="W1" value="15.948200232716289" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="4.02144051400182E-4" />
+      <entry key="MS500" value="0.20935162265300838" />
+      <entry key="S2" value="0.6833400566342908" />
+      <entry key="S5" value="1.1072973306838123" />
+      <entry key="S10" value="1.939333788408205" />
+      <entry key="S30" value="4.860642910022982" />
+      <entry key="S60" value="8.600517869019166" />
+      <entry key="M2" value="16.45359715965305" />
+      <entry key="M5" value="40.39931768807608" />
+      <entry key="M10" value="68.51596485558622" />
+      <entry key="M15" value="91.23164843533998" />
+      <entry key="M30" value="145.79055069391848" />
+      <entry key="H1" value="208.53727265831625" />
+      <entry key="H2" value="259.95619759100964" />
+      <entry key="H4" value="293.5301893637346" />
+      <entry key="D1" value="326.71142009070576" />
+      <entry key="W1" value="332.94451958674927" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3I3QStpI8r8r3cqCGJUqzsavAyL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/puppy/OneDrive/Desktop/Secure-Vault--main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/puppy/OneDrive/Desktop/Secure-Vault--main/src/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\puppy\OneDrive\Desktop\Secure-Vault--main\src\src\com\securevault" />
+      <recent name="C:\Users\puppy\OneDrive\Desktop\Secure-Vault--main\src\src\com" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.securevault.app.Main" />
+      <module name="Secure-Vault" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.securevault.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Secure-Vault" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Secure-Vault" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d62031c-a92d-4470-a950-3ea8572a7081" name="Changes" comment="" />
+      <created>1786990777858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786990777858</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Phase 4 prompt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Phase 4 prompt" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
