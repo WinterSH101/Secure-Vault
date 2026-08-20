@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d62031c-a92d-4470-a950-3ea8572a7081" name="Changes" comment="Phase 4 prompt">
-      <change afterPath="$PROJECT_DIR$/.idea/Secure-Vault.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecureVault--Main/src/com/securevault/core/VaultItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Secure-Vault--main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/Journal.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/src/com/securevault/app/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/src/com/securevault/core/InvalidItemValueException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/src/com/securevault/core/VaultItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/src/com/securevault/core/VaultManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secure-Vault--main/src/com/securevault/specialty/FragileItem.java" beforeDir="false" />
+    <list default="true" id="3d62031c-a92d-4470-a950-3ea8572a7081" name="Changes" comment="Redo code b/c commits are wrong">
+      <change afterPath="$PROJECT_DIR$/SecureVault--Main/src/com/securevault/specialty/FragileItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,61 +37,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0046996435209572E-45" />
-      <entry key="MS500" value="1.0095228811105887E-9" />
-      <entry key="S2" value="0.00804335949257484" />
-      <entry key="S5" value="0.28241631729747646" />
-      <entry key="S10" value="1.0378502485251897" />
-      <entry key="S30" value="3.2407521115786886" />
-      <entry key="S60" value="6.074893900422085" />
-      <entry key="M2" value="13.02610004118408" />
-      <entry key="M5" value="36.13636154083309" />
-      <entry key="M10" value="63.70996796652054" />
-      <entry key="M15" value="85.82726031143784" />
-      <entry key="M30" value="138.4202838813762" />
-      <entry key="H1" value="198.47945306592962" />
-      <entry key="H2" value="247.52885788647941" />
-      <entry key="H4" value="279.5023814530219" />
-      <entry key="D1" value="311.0696839088883" />
-      <entry key="W1" value="316.99647911053967" />
+      <entry key="MS100" value="4.071117212636454E-8" />
+      <entry key="MS500" value="0.0332615682016716" />
+      <entry key="S2" value="0.4274117203964614" />
+      <entry key="S5" value="0.7981924701416333" />
+      <entry key="S10" value="1.5004400522252694" />
+      <entry key="S30" value="4.828498832656636" />
+      <entry key="S60" value="8.95973634108297" />
+      <entry key="M2" value="14.807086069214295" />
+      <entry key="M5" value="27.160132075726953" />
+      <entry key="M10" value="49.83728214107744" />
+      <entry key="M15" value="72.75649203095232" />
+      <entry key="M30" value="132.07346662091516" />
+      <entry key="H1" value="206.0154596690506" />
+      <entry key="H2" value="270.8346574287265" />
+      <entry key="H4" value="315.00146643672986" />
+      <entry key="D1" value="359.959536812633" />
+      <entry key="W1" value="368.54243325893856" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000000208577129" />
-      <entry key="S5" value="1.002871000094686" />
-      <entry key="S10" value="1.074841928350726" />
-      <entry key="S30" value="1.81413284833399" />
-      <entry key="S60" value="2.7005613716470185" />
-      <entry key="M2" value="3.565396376186673" />
-      <entry key="M5" value="4.343114927113119" />
-      <entry key="M10" value="4.853660665480967" />
-      <entry key="M15" value="5.440138136970205" />
-      <entry key="M30" value="7.394344252741593" />
-      <entry key="H1" value="10.074321328478137" />
-      <entry key="H2" value="12.437635899530205" />
-      <entry key="H4" value="14.03366079890245" />
-      <entry key="D1" value="15.64283157675922" />
-      <entry key="W1" value="15.948200232716289" />
+      <entry key="S2" value="1.000000185650686" />
+      <entry key="S5" value="1.0020731482779393" />
+      <entry key="S10" value="1.0525337774326204" />
+      <entry key="S30" value="1.787200742775159" />
+      <entry key="S60" value="3.34144298889132" />
+      <entry key="M2" value="5.976859157346751" />
+      <entry key="M5" value="9.90413987493493" />
+      <entry key="M10" value="12.78461038289358" />
+      <entry key="M15" value="14.489514991495833" />
+      <entry key="M30" value="17.810786950819075" />
+      <entry key="H1" value="21.578517203749886" />
+      <entry key="H2" value="24.876745953880235" />
+      <entry key="H4" value="27.145972442268675" />
+      <entry key="D1" value="29.476639586424657" />
+      <entry key="W1" value="29.92396037499098" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.02144051400182E-4" />
-      <entry key="MS500" value="0.20935162265300838" />
-      <entry key="S2" value="0.6833400566342908" />
-      <entry key="S5" value="1.1072973306838123" />
-      <entry key="S10" value="1.939333788408205" />
-      <entry key="S30" value="4.860642910022982" />
-      <entry key="S60" value="8.600517869019166" />
-      <entry key="M2" value="16.45359715965305" />
-      <entry key="M5" value="40.39931768807608" />
-      <entry key="M10" value="68.51596485558622" />
-      <entry key="M15" value="91.23164843533998" />
-      <entry key="M30" value="145.79055069391848" />
-      <entry key="H1" value="208.53727265831625" />
-      <entry key="H2" value="259.95619759100964" />
-      <entry key="H4" value="293.5301893637346" />
-      <entry key="D1" value="326.71142009070576" />
-      <entry key="W1" value="332.94451958674927" />
+      <entry key="MS100" value="6.180476867697374E-4" />
+      <entry key="MS500" value="0.247139485935599" />
+      <entry key="S2" value="1.0625686652951154" />
+      <entry key="S5" value="1.6095008262341561" />
+      <entry key="S10" value="2.40140168947125" />
+      <entry key="S30" value="6.4288837074434815" />
+      <entry key="S60" value="12.106648560629854" />
+      <entry key="M2" value="20.618599841064455" />
+      <entry key="M5" value="36.95894471555101" />
+      <entry key="M10" value="62.550941894067144" />
+      <entry key="M15" value="87.1901617081652" />
+      <entry key="M30" value="149.84702077892882" />
+      <entry key="H1" value="227.56953003640206" />
+      <entry key="H2" value="295.6964807100751" />
+      <entry key="H4" value="342.1390224428873" />
+      <entry key="D1" value="389.43460735405205" />
+      <entry key="W1" value="398.46616488527815" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -210,7 +196,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Phase 4 prompt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Phase 4 prompt" />
+    <MESSAGE value="Phase 1 COmplete" />
+    <MESSAGE value="Phase 1 Complete" />
+    <MESSAGE value="Redo code b/c commits are wrong" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redo code b/c commits are wrong" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
