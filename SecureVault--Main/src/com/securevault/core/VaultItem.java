@@ -5,6 +5,11 @@ public class VaultItem {
     private double itemValue;
 
     public VaultItem(String itemName, double itemValue) {
+        throws InvalidItemValueException {
+            if (itemValue <= 0) {
+                throws new InvalidItemValueException ("item value must be greater than $0")
+            };
+        }
         this.itemName = itemName;
         this.itemValue = itemValue;
     }
@@ -17,6 +22,6 @@ public class VaultItem {
     }
     @override
     public String toString() {
-        return "Item " + itemName + ", Value: $ " + itemValue;
+        return "Item: " + itemName + ", Value: $ " + itemValue;
     }
 }
