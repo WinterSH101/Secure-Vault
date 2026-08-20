@@ -1,17 +1,33 @@
 package com.securevault.app;
+
 import com.securevault.core.VaultItem;
-import com.sercurevault.core.InvalidItemValueException;
+import com.securevault.core.VaultManager;
+import com.securevault.core.InvalidItemValueException;
+import com.securevault.specialty.FragileItem;
 
 public class Main {
     public static void main(String[] args) {
         try {
-            VaultItem validItem = new VaultItem("Watch", 500.00);
-            System.out.println(validItem);
+            VaultItem [] items = {
+                    new VaultItem ("Watch", 500.00),
+                    new FragileItem ("Vase", 250.00, true),
+                    new VaultItem ("Laptop", 1500.00),
+                    new FragileItem ("Painting", 800.00, false),
+                    new VaultItem ("Ring", 2500.00),
+            };
 
-            VaultItem invalidItem = new VaultItem("Broken Item", 0);
-            System.out.println(invalidItem);
+            VaultManager manager = new VaultManager();
+
+            manager.selectionSort(items);
+
+            System.out.println ("Sorted Vault Items:");
+
+            for (VaultItem item : items) {
+                System.out.println (item);
+            }
         } catch (InvalidItemValueException e) {
-            System.out.println("Error:" + e.getNessage());
+
+            System.out.println("Error:" + e.getMessage());
         }
     }
 }
