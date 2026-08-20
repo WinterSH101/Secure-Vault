@@ -8,14 +8,14 @@ public class FragileItem extends VaultItem {
     public FragileItem (String itemName, double itemValue, boolean isWrapped)
         throws InvalidItemValueException {
 
-        super (itemName, itemValue)
+        super (itemName, itemValue);
         this.isWrapped = isWrapped;
     }
     public boolean getIsWrapped() {
         return isWrapped;
     }
-    @Override
+    @ Override
     public String toString() {
-        return super.toString () + ", Wrapped:" + isWrapped
+        return super.toString () + ", Wrapped:" + isWrapped;
     }
 }
